@@ -1,77 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+
 body{
-background-color: sandybrown;
-font-family: cursive;
+background-color: #7A9D96;
+font-family: 'Cairo', sans-serif;
+
+}
+.container{
+
+width: 100%;
+height: 100%;
+
+}
+
+.welcome{
+width: 100%;
 overflow: hidden;
+color: white;
+background-color:#00303F;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+margin: 50px 0px;
+border: 3px solid white;
+padding: 10px;
+min-height: 100px;
+}
+.welcome h1 , p {
+text-align: center;
 }
 
-.cont{
-
-margin: 0px 320px;
-
-}
-
- .cont img{
-width: 130px;
-margin: 20px 100px;
-border-radius: 100px;
-} 
-
-.cont h2 {
-margin: -10px 70px;
-}
-
-.menu ul{
-list-style: none;
- margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.menu li {
-float: left;
-}
-
-.menu li a {
-    display: block;
-  text-align: center;
-    padding: 15px 12px;
-    text-decoration: none;
+.welcome  button {
+margin: 0px 410px;
+padding: 00px 40px;
 color: black;
 }
 
+.head{
+width: 100%;
+overflow: hidden;
+color: white;
+border: 3px solid white;
+background-color:#00303F;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+margin: -50px 0px;
+display: none;
+}
 
-span {
-font-family:serif;
-color: black;
-margin: 0px 10px;
-    font-family: Tahoma;
+.head img{
+width: 140px;
+border-radius: 50%;
+}
+
+.imag{
+width: 150px;
+ border: 5px solid white;
+border-radius: 50%;
+margin: 5px 50px;
+}
+
+.info{
+float:right;
+width: 75%;
+margin-top: -180px;
+margin-right: 40px;
+}
+
+.info p{
+margin-right: 410px;
+}
+
+.story{
+width: 100%;
+overflow: hidden;
+color: #00303F;
+background-color: white;
+margin: 50px 0px;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+display: none;
+border: 3px solid #00303F ;
+
+}
+.story h2{
+text-decoration: underline;
+margin: 10px 20px;
+}
+.story p{
+margin: 10px 20px;
 font-size: 20px;
 }
 
-
-
-.hr{
-
-width: 400px;
-background-color: black;
-    padding: 10px;
-position: absolute;
-left: 300px;
-
-}
-.type-wrap{
-margin: 0px -30px;
-}
-
-.overlay{
-background-color: red;
-position: fixed;
-color: white;
-top:0px;
-left:0px;
-z-index: 9999;
-height: 100%;
+.contact{
 width: 100%;
+overflow: hidden;
+color: white;
+background-color:#00303F;
+margin: 10px 0px;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+display: none;
 }
-
-
+.contact h2{
+text-decoration: underline;
+margin: 10px 20px;
+}
