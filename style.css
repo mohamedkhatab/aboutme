@@ -102,7 +102,8 @@ text-decoration: underline;
 margin: 10px 20px;
 }
 
-@media only screen and (max-width : 2000px ){
+@media only screen and (max-width : 2000px ) and (min-width:1500px)
+{
    .welcome{
 width: 100%;
 overflow: hidden;
@@ -119,7 +120,7 @@ text-align: center;
 }
 
 .welcome  button {
-margin: 0px 810px;
+margin: 0px 800px;
 padding: 00px 70px;
 color: black;
 }
